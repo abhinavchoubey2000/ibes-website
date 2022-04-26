@@ -1,0 +1,596 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Caption&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(239 234 234);
+}
+html{
+    scroll-behavior: smooth;
+}
+/* About Page */
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0rem;
+    margin-bottom: 1.5rem;
+    padding-top: 3rem;
+}
+.about-all{
+    background-color: white;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 3rem;
+    width: 79vw;
+    height: fit-content;
+    border-radius: 3rem;
+    border-top-left-radius: 0%;
+    border-top-right-radius: 0%;
+}
+.about-heading h1{
+        width: 40vw;
+        font-family: 'PT Sans Caption', sans-serif;        
+    }
+.about-all .about-heading{
+    font-size: 2.6rem;
+    color: #1ea3e6;
+}
+.about-all .content{
+    margin-top: 3rem;
+    font-size: 1.5rem;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+/* Services Page */
+
+.services-all{
+    margin: auto;
+    margin-bottom: 1.5rem;
+    width: 63vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+    font-family: 'Cormorant Garamond', serif;
+}
+.services-all h1{
+    font-size: 4rem;
+    font-family: 'PT Sans Caption', sans-serif; 
+}
+.services-heading{
+    margin-top: 1.5rem;
+    width: 81.3vw;
+    background-color: white;
+}
+.services-heading h1{
+    margin-left: 2rem;
+    background-color: white;
+    font-family: 'PT Sans Caption', sans-serif; 
+    color: #1ea3e6;
+    width: 40vw;
+    font-size: 5rem;
+}
+.services-content{
+    display: flex;
+    background-color: white;
+    border-radius: 3rem;
+    border-top-right-radius: 0%;
+    border-top-left-radius: 0%;
+    height: 85vh;
+    width: 79vw;
+    padding-left: 2rem;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+.services-content span{
+    display: flex;
+    height: 27vh;
+}
+.training-image,.consulting-image,.certification-image{
+    border-radius: 15rem;
+    height: 44vh;
+    width: 20vw;
+    margin: auto;
+    margin-top: 1rem;
+    margin-right: 4rem;
+    overflow: hidden;
+
+}
+img{
+    margin: auto;
+    height: 280px;
+}
+.training-box,.consulting-box,.certification-box{
+    width: 40vw;
+    height: 60vh;
+}
+.points{
+    margin: auto;
+    margin-left: 1rem;
+    font-size: 2rem;
+}
+.points a{
+    text-decoration: none;
+    margin-top: 6rem;
+    color: rgb(97, 94, 94);
+}
+.points a:hover{
+    text-decoration:underline;
+    text-decoration-color:#1ea3e6;
+}
+.sub-points{
+    width: 15vw;
+    margin: auto;
+    opacity: 0.7;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
+.last1{
+    margin-left: -3.2rem;
+}
+.last2{
+    margin-left: 0rem;
+}
+.last3{
+    width: 12vw;
+    margin-left: -4.4rem;
+}
+#p-1{
+    margin-left: 5rem;
+}
+#p-2{
+    margin-left: 4rem;
+}
+#p-3{
+    margin-left: 2.5rem;
+}
+#sub-1{
+    width: 5vw;
+}
+#sub-3{
+    width: 8vw;
+}
+.services-brief{
+    border-radius: 3rem;
+    border-bottom-right-radius: 0%;
+    border-bottom-left-radius: 0%;
+    background-color: white;
+    height: fit-content;
+    width: 81.4vw;
+    display: flex;
+    flex-direction: column; 
+}
+.services-training{
+    border-radius: 50px;
+    border-top-left-radius: 0%;
+    width: 63vw;
+    margin: auto;
+    margin-top: 3rem;
+    font-size: 1.5rem;
+    padding-top: 3rem;
+}
+.services-training h1{
+    margin-left: 2rem;
+    margin-bottom: 2.5rem;
+    font-family: 'PT Sans Caption', sans-serif; 
+    color: #71c1e9;
+}
+.services-training img{
+    display: flex;
+    height: 13.5rem;
+    margin-top: -1rem;
+    border-radius: 3rem;
+}
+.services-training li{
+    margin-left: 5rem;
+    margin-bottom: 2rem;
+    width: 22rem;
+}
+.services-consulting{
+    border-radius: 20px;
+    width: 63vw;
+    margin: auto;
+    margin-top: 3rem;
+    font-size: 1.5rem;
+    padding-top: 3rem;
+}
+.services-consulting h1{
+    margin-left: 2rem;
+    font-family: 'PT Sans Caption', sans-serif; 
+    margin-bottom: 2.5rem;
+    color: #71c1e9;
+}
+.services-consulting p{
+    width: 30vw;
+    margin-bottom: 1.5rem;
+    margin-left: 5rem;
+}
+.services-consulting img{
+    height: 13.5rem;
+    margin-top: 7rem;
+    border-radius: 3rem;
+}
+.services-certification{
+    border-radius: 20px;
+    width: 63vw;
+    margin: auto;
+    margin-top: 3rem;
+    font-size: 1.5rem;
+    padding-top: 3rem;
+}
+.services-certification li{
+    margin-bottom: 1.5rem;
+    margin-left: 5rem;
+}
+.services-certification h1,h2{
+    font-family: 'PT Sans Caption', sans-serif; 
+    margin-left: 2rem;
+    margin-bottom: 2.5rem;
+    color: #71c1e9;
+}
+.services-certification img{
+    height: 13.5rem;
+    border-radius: 3rem;
+}
+.certification-sub-heading{
+    margin-left: 2rem;
+}
+.food{
+    width: 24rem;
+    margin-left: 2rem;
+}
+.services-others{
+    border-radius: 20px;
+    width: 63vw;
+    margin: auto;
+    margin-top: 3rem;
+    font-size: 1.5rem;
+}
+.services-others li{
+    margin-bottom: 1.5rem;
+    margin-left: 5rem;
+}
+.services-others h1{
+    font-family: 'PT Sans Caption', sans-serif; 
+    margin-left: 2rem;
+    margin-bottom: 2.5rem;
+    color: #71c1e9;
+}
+/* Why Page */
+.why-all{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Cormorant Garamond', serif;
+    padding-top: 2rem;
+}
+.why-content{
+    margin-top: 1.5rem;
+    padding-left: 2rem;
+    width: 79vw;
+    height: fit-content;
+    background-color: white; 
+    padding-bottom: 2rem;
+    border-radius: 3rem;
+    border-top-right-radius: 0%;
+    border-top-left-radius: 0%;
+    margin-bottom: 1.5rem;
+    
+}
+.why-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 26vw;
+    margin: auto;    
+}
+.why-heading img{
+    height: 150px;
+}
+.why-heading span{
+    font-size: 7rem;
+    color: #1ea3e6;
+    font-family: 'PT Sans Caption', sans-serif; 
+}
+.why-content h1{
+    font-size:5rem;
+    color: #1ea3e6;
+    font-family: 'PT Sans Caption', sans-serif; 
+}
+.hr{
+    width: 26vw;
+    margin: auto;
+}
+.why-text{
+    display: flex;
+}
+.why-para p{
+    margin-top: 5rem;
+}
+.why-para{
+    width: 45vw;
+    font-size: 2rem;
+}
+.why-image{
+    height: 46vh;
+    margin-top:8rem;
+    margin-right: 2rem;
+}
+.why-image img{
+    height: 20rem;
+    border-radius: 3rem;
+}
+/* Home Page */
+.home{
+    width: 100vw;
+    height: 100vh;
+    padding-top: 2rem;
+    font-family: 'Cormorant Garamond', serif;
+}
+.home-image{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0,0.7);
+}
+.home-image-filter{
+
+    width:100%;
+    height: 100%;
+    border: 2px solid black;
+    background-image: url("static/images/home.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.home-image h1{
+    color: white;
+    font-size: 4rem;
+    width: 65vw;
+    margin: auto;
+    text-align: center;
+    font-family: 'PT Sans Caption', sans-serif;
+}
+.home-image p{
+    color: rgb(89 182 235);
+    font-size: 1.4rem;
+    width: 45vw;
+    margin: auto;
+    margin-top: 2rem;
+    text-align: center;
+}
+.home-image .imgg{
+    width: 20vw;
+    height: 35vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.home-image img{
+    height: 170px;
+    margin: auto;
+}
+.home-image .down-button{
+    height: 100px;
+    width: 100px;
+    margin: auto;
+    margin-top: 0rem;
+}
+.home-image .down-button button{
+    height: 67px;
+    width: 67px;
+    border-style: double;
+    background-color: #4c4c4c;
+    border-radius: 4rem;
+    font-size: 3.5rem;
+    color: white;
+    transition: all;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+.home-image .down-button button:hover{
+    color: #4c4c4c;
+    background-color: white;
+    font-size: 4.5rem;
+    height: 80px;
+    width: 80px;
+}
+.home-text{
+    background-color: white;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    margin-bottom: 1.5rem;
+}
+.home-text .home-heading1{
+    font-family: 'PT Sans Caption', sans-serif;
+    margin-bottom: 2rem;
+    font-size: 3rem;
+    text-align: center;
+    color: #1ea3e6;
+}
+.home-text .home-para1{
+    width: 70vw;
+    margin: auto;
+    margin-top: 2rem;
+    font-size: 2rem;
+}
+.home-text .home-heading2{
+    font-family: 'PT Sans Caption', sans-serif;
+    margin-top: 2rem;
+    font-size: 3rem;
+    text-align: center;
+    color: #1ea3e6;
+}
+.home-text .home-para2{
+    width: 70vw;
+    margin: auto;
+    margin-top: 2rem;
+    font-size: 2rem;
+}
+.home-text .home-para2 li{
+    margin-top: 1rem;
+}
+.nav{
+    /* font-family: 'Cormorant Garamond', serif; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    background-color: black;
+    font-size: 1.3rem;
+    height: 8vh;
+    position: fixed;
+    width: 100%;
+}
+.nav-home{
+    border-radius: 34rem;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav img{
+    height: 50px;
+}
+.nav ul{
+    display: flex;
+}
+.nav ul li{
+    margin-left: 2rem;
+    list-style: none;
+    transition: all;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+.nav ul a{
+    color:white;
+    text-decoration: none;
+    transition: all;
+    transition-duration: 0.5s;
+}
+.nav ul a:hover{
+    text-decoration: underline;
+    color:#1ea3e6;
+    text-decoration-color: white;
+    font-size: 1.5rem;        
+}
+/* Contact Page */
+.contact-all{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid black; */
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+    background-color: white;
+    padding: 3.5rem;
+    border-radius: 3rem;
+    margin-bottom: 1.5rem;
+}
+.contact-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contact-box input,textarea,button{
+    margin: 1rem;
+    font-size: 1rem;
+    padding: 0.5rem;
+}
+.contact-box input{
+    width: 40vw;
+    height: 2rem;
+    margin-top: 2rem;
+    background-color: rgb(183 183 183);
+    outline-color: #1ea3e6;
+    border: none;
+    color: #6a7a7a;
+    border-radius: 1rem;
+    transition: all;
+    transition-duration: 1s;
+}
+.contact-box textarea{
+    border-radius: 0.6rem;
+    outline-color: #1ea3e6;
+    background-color: rgb(239 234 234);
+    color: #746f6f;
+}
+.contact-heading h1{
+    color:#1ea3e6;
+    font-family: 'PT Sans Caption', sans-serif;
+}
+.contact-box button{
+    font-family: 'PT Sans Caption', sans-serif;
+    border-radius: 1rem;
+    width: 15vw;
+    background-color: white;
+    color:#1ea3e6;
+    cursor: pointer;
+    transition: all;
+    transition-duration: 0.5s;
+    border-style: ridge;
+}
+.contact-box button:hover{
+    background-color: #1ea3e6;
+    color: white;
+}
+.contact-box input:focus{
+    border-radius: 0;
+}
+.footer-all{
+    font-family: 'PT Sans Caption', sans-serif;
+    width: 100%;
+    text-align: center;
+    background-color: #323131;
+    color: white;
+    height: 16rem;
+}
+.footer-heading{
+    padding-top: 1rem;
+    margin-bottom: 2rem;
+    color: #1ea3e6;
+    font-family: 'Cormorant Garamond', serif;
+}
+.location{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+    height: 2rem;
+}
+.location span{
+    padding-top: 0.5rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+.contact-info{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+    height: 2rem;
+}
+.contact-info span{
+    padding-top: 0.5rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+.contact-info a{
+    color:#1ea3e6
+}
+.web{
+    margin-bottom: 1rem;
+}
+.web a{
+    color:#1ea3e6
+}
+.copyright{
+    margin-bottom: 3rem;
+}
